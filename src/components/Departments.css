@@ -1,0 +1,46 @@
+.departments-container {
+  min-height: 100vh;
+  background-color: #f7f7f7; /* Consistent with home page background */
+  padding-top: 50px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary color for a professional look */
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Adding subtle hover effect */
+}
+
+.card-title {
+  font-weight: bold;
+  color: #343a40; /* Dark text for contrast */
+}
+
+.card-text {
+  color: #6c757d; /* Subtle text color */
+}
+
+.card-footer {
+  border-top: none; /* Remove border on footer */
+}
+
+.btn-primary {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .departments-container {
+    padding: 20px;
+  }
+}
